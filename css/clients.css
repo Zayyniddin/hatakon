@@ -1,0 +1,23 @@
+.clients__h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    line-height: 42px; 
+    margin-top: 113px;
+}
+.clients__p {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px; 
+    margin-top: 15px;
+    margin-bottom: 42px;
+}
+.clients__wrap {
+    padding: 40px 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+

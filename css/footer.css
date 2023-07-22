@@ -1,0 +1,120 @@
+.footer__nav-p {
+    color: #C0C0C0;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer__nav-list-tittle-link {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.footer__nav-list-item-link {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.footer__nav-lists {
+    display: flex;
+    gap: 54px;
+} 
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subscribe__h3 {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.subscribe__p {
+    color: #C0C0C0;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 36px 0;
+    margin: 36px 0 56px;
+}
+.subscribe__form-input {
+    outline: none;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    width: 100%;
+}
+.subscribe__form-input::placeholder {
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.subscribe__form {
+    max-width: 458px;
+    width: 100%;
+    background: #F9FAFB;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    position: relative;
+}
+.subscribe__form-btn {
+    position: absolute;
+    right: 6px;
+    top: 11px;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    border-radius: 11px;
+    background: #000;
+    border: none;
+    padding: 5px 12px;
+}
+.rights-p {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px; 
+}
+.rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.rights__social {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width:890px) {
+    .footer__nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer__nav-lists {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__nav-list-item-link {
+        text-align: center;
+    }
+    
+
+}
